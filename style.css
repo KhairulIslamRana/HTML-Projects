@@ -1,0 +1,108 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0;
+} */
+#Rana {
+    background:rbg(96,233,233);
+    color: purple;
+    padding: 0px;
+    font-size: 30px;
+    background-color: aquamarine;
+    border: 7px solid rgb(205, 48, 24);
+}
+
+.KI-Rana{
+    font-size: 25px;
+    color: red;
+    background-color: greenyellow;
+    border: 6px solid rgb(28, 9, 196); 
+}
+
+.KI--Rana{
+    font-size: 20px;
+    color: rgb(176, 200, 70);
+    background-color: rgb(13, 48, 79);
+    border: 4px solid rgb(184, 132, 67); 
+}
+
+
+body{
+    background: rgb(203, 176, 176);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color:rgb(60, 151, 70);
+    font-size: 40px;
+    text-decoration: none;
+}
+img{
+    max-width: 90%
+}
+table{
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse
+}
+td,th{
+    border: 5px solid rgb(63, 68, 63)
+}
+ul{
+    list-style: square;
+   
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: rgb(151, 96, 203);
+    padding: 20px;
+}
+header img{
+    width: 250px;
+    margin:0 auto;
+    display: block;
+}
+
+#main-menu{
+    margin-top: 20px;
+    text-align: center; 
+    list-style: none;
+}
+#main-menu li{
+    display: inline;
+    margin:0 10px;
+}
+#main-menu a{
+    background:rgb(214, 32, 32);
+    color: white ;
+    padding:5px 10px;
+    text-decoration: none;
+}
+section{
+    background:rgb(193, 78, 78);
+    display: flex ;
+}
+div{
+    padding: 20px;
+    width: 60%;
+}
+div h1{
+    margin-bottom: 20px;
+}
+aside{
+    padding: 20px;
+    width: 40% ;
+}
+aside ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color:rgb(255, 255, 255, 0.737); ;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    font-size: 40px;
+}
